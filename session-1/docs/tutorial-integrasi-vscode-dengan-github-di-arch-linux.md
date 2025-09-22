@@ -2,7 +2,7 @@
 
 ## setp 1 : buka aplikasi vscode di laptop
 ## step 2 : klik ikon terminal yang berada di barisan kanan atas
-## step 3 : buat folder ssh
+## step 3 : buat file ssh
 untuk membuat folder ssh, tambahkan text
 ```
 ssh-keygen -t ed25519 -C "your email"
@@ -12,7 +12,7 @@ ssh-keygen -t ed25519 -C "your email"
 jika file yang ingin kita integrasikan bersifat rahasia, jika tidak, maka kosongkan saja dengan menekan tombol **enter**
 ## step 6 : verifikasi password 
 isi verifikasi password jika file yang ingin di integrasikan memiliki password
-## step 7 : buat file
+## step 7 : buat folder
 untuk membuat file, tambahkan text
 ```
 mkdir .ssh
